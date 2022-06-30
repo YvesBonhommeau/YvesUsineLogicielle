@@ -21,8 +21,9 @@ import java.util.Set;
 public class BusReservationSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BusReservationSystemApplication.class, args);
-    }
+        SpringApplication.run(BusReservationSystemApplication.class, args)
+		//SpringApplication.run(BusReservationSystemApplication.class, args);
+ }
 
     @Bean
     CommandLineRunner init(RoleRepository roleRepository, UserRepository userRepository,
