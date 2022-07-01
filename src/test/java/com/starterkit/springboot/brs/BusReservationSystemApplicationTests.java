@@ -13,7 +13,7 @@ public class BusReservationSystemApplicationTests {
     @Test
     public void contextLoads() {
         int a=5; 
-        int b=10;
+        int b=9;
         
         //assertEquals(a, b);
     }
